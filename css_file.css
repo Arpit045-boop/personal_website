@@ -1,0 +1,112 @@
+body
+{
+  background-image: url('https://toppng.com/uploads/preview/design-background-textures-115540002933bxjixysv9.jpg');
+}
+#nav
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgreen;
+  position: sticky;
+  top: 0;
+}
+
+.nav1
+{
+  float: left;
+}
+.nav1 a
+{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+.nav1 a:hover{
+  background-color: red;
+}
+.active
+{
+  background-color: orange;
+}
+#Intro
+{
+  color: white;
+  text-align:center;
+  font-size: 30px;
+}
+h1
+{
+  color: white;
+  margin-left: 15px;
+}
+#link
+{
+  color: pink;
+}
+#Education
+{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+#Education td, #Education th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Education tr
+{
+  background-color: white;
+}
+
+#Education tr:hover {background-color: grey;}
+
+#Education th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#exp
+{
+  color: #ffaa80;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+#contact
+{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+.centerdiv
+{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border: 3px solid green;
+  background-color: pink;
+  margin-top: 20px;
+}
+.contactlist
+{
+  padding-top: 10px;
+  font-size: 30px;
+  color: white;
+}
+.social
+{
+  background-color: skyblue;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
